@@ -10,7 +10,7 @@ const loginUser = () => {
 
   const onSubmit = async () => {
     try {
-      const response = await createUser(user);
+      const response = await createUser();
       console.log('Data posted successfully:', response);
 
       setShowSuccessToast(true);

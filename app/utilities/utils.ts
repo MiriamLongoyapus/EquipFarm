@@ -1,10 +1,10 @@
 
 import axios from 'axios';
 
-// export interface UserDetails {
-//   username: string;
-//   phone_number: string;
-// }
+export interface UserDetails {
+  username: string;
+  phone_number: string;
+}
 
 // export const createUser = async (userdetails: UserDetails) => {
 //   const url = '/api/register-user'; 
